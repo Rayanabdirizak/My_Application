@@ -105,7 +105,66 @@ const QUIZZES = {
       { q: "What is the CSS box model?", options: ["A 3D model", "Content, padding, border, margin", "A grid system", "A flexbox layout"], answer: 1 },
     ]
   },
+
+  lesson_14: {
+    title: "Django Tutorial",
+    questions: [
+      { q: "What is Django?", options: ["A JavaScript framework", "A Python web framework", "A CSS library", "A database"], answer: 1 },
+      { q: "What does MTV stand for in Django?", options: ["Model Template View", "Model Transfer View", "Module Template Variable", "Model Type View"], answer: 0 },
+      { q: "What command creates a new Django project?", options: ["django new project", "django-admin startproject", "python create project", "django init"], answer: 1 },
+    ]
+  },
+  lesson_15: {
+    title: "SQL Database Tutorial",
+    questions: [
+      { q: "What does SELECT do in SQL?", options: ["Deletes data", "Updates data", "Retrieves data", "Creates tables"], answer: 2 },
+      { q: "Which SQL command adds new data?", options: ["ADD", "INSERT INTO", "PUT", "APPEND"], answer: 1 },
+      { q: "What does WHERE do in SQL?", options: ["Sorts results", "Filters results", "Joins tables", "Creates indexes"], answer: 1 },
+    ]
+  },
+  lesson_16: {
+    title: "Git & GitHub Tutorial",
+    questions: [
+      { q: "What is Git?", options: ["A programming language", "A version control system", "A web browser", "A database"], answer: 1 },
+      { q: "What does 'git commit' do?", options: ["Uploads to GitHub", "Saves changes to local repo", "Deletes files", "Creates a branch"], answer: 1 },
+      { q: "What does 'git push' do?", options: ["Downloads code", "Uploads local commits to remote", "Merges branches", "Creates a repo"], answer: 1 },
+    ]
+  },
+  lesson_17: {
+    title: "Flutter Mobile Development",
+    questions: [
+      { q: "What language does Flutter use?", options: ["JavaScript", "Python", "Dart", "Swift"], answer: 2 },
+      { q: "What is a Widget in Flutter?", options: ["A database", "A building block of UI", "A network request", "A file"], answer: 1 },
+      { q: "Who created Flutter?", options: ["Facebook", "Microsoft", "Google", "Apple"], answer: 2 },
+    ]
+  },
+  lesson_18: {
+    title: "Cloud Computing Basics",
+    questions: [
+      { q: "What is cloud computing?", options: ["Weather forecasting", "Delivering services over the internet", "A programming language", "A type of hardware"], answer: 1 },
+      { q: "Which is a major cloud provider?", options: ["Tesla", "Amazon Web Services", "Samsung", "Intel"], answer: 1 },
+      { q: "What does SaaS stand for?", options: ["Software as a Service", "Storage as a System", "Server as a Solution", "Software as a System"], answer: 0 },
+    ]
+  },
+  lesson_19: {
+    title: "Cybersecurity Basics",
+    questions: [
+      { q: "What is a firewall?", options: ["A type of virus", "A security system that monitors network traffic", "A programming language", "A database"], answer: 1 },
+      { q: "What does encryption do?", options: ["Deletes data", "Converts data into unreadable format", "Speeds up internet", "Creates backups"], answer: 1 },
+      { q: "What is phishing?", options: ["A fishing game", "A type of malware", "A social engineering attack to steal info", "A network protocol"], answer: 2 },
+    ]
+  },
+  lesson_20: {
+    title: "AI & Machine Learning",
+    questions: [
+      { q: "What is Artificial Intelligence?", options: ["A robot", "Simulation of human intelligence by machines", "A programming language", "A database"], answer: 1 },
+      { q: "What is supervised learning?", options: ["Learning without data", "Learning with labeled training data", "Learning by watching videos", "Learning without a teacher"], answer: 1 },
+      { q: "Which library is popular for deep learning?", options: ["Pandas", "NumPy", "TensorFlow", "Matplotlib"], answer: 2 },
+    ]
+  },
 };
+
+
 
 function Quiz({ videoId, darkMode, onClose }) {
   const [current, setCurrent] = useState(0);
