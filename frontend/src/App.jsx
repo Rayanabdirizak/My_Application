@@ -19,6 +19,13 @@ const PLAYLIST = [
   { id: "lesson_11", title: "Node JS Tutorial", embedId: "KOutPbKc9UM" },
   { id: "lesson_12", title: "HTML Full Course", embedId: "qz0aGYrrlhU" },
   { id: "lesson_13", title: "CSS Tutorial", embedId: "wRNinF7YQqQ" },
+  { id: "lesson_14", title: "Django Tutorial", embedId: "Rp5vd34d-z4" },
+  { id: "lesson_15", title: "SQL Database Tutorial", embedId: "7S_tz1z_5bA" },
+  { id: "lesson_16", title: "Git & GitHub Tutorial", embedId: "RGOj5yH7evk" },
+  { id: "lesson_17", title: "Flutter Mobile Development", embedId: "VPvVD8t02U8" },
+  { id: "lesson_18", title: "Cloud Computing Basics", embedId: "EN4fEbcFZ_E" },
+  { id: "lesson_19", title: "Cybersecurity Basics", embedId: "9HOpanT0GRs" },
+  { id: "lesson_20", title: "AI & Machine Learning", embedId: "GwIo3gDZCVQ" },
 ];
 
 const REACTIONS = ['👍', '❤️', '😮', '🔥', '😂'];
