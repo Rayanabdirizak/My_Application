@@ -48,7 +48,7 @@ export default function App() {
   const [commentText, setCommentText] = useState('');
   const [showComments, setShowComments] = useState(false);
 
-  const API_URL = 'http://localhost:5000/api/notes';
+ const API_URL = 'https://my-application-nc8w.onrender.com/api/notes';
 
   const theme = {
     bg: darkMode ? 'linear-gradient(135deg, #0f0c29, #302b63, #24243e)' : 'linear-gradient(135deg, #e8eaf6, #c5cae9, #e3f2fd)',
@@ -162,7 +162,7 @@ export default function App() {
     if (!wasCompleted && user?.email) {
       const lesson = PLAYLIST.find(v => v.id === videoId);
       try {
-        await axios.post('http://localhost:5000/api/email/lesson-complete', {
+        await axios.post('https://my-application-nc8w.onrender.com/api/email/lesson-complete', {
           email: user.email,
           username: user.username,
           lessonTitle: lesson.title
